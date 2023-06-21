@@ -6,7 +6,7 @@
 }
 
 html, body {
-    min-height: 200vh;
+    min-height: 180vh;
     overflow-x: hidden;
 }
 
@@ -36,6 +36,9 @@ html, body {
     transition: 1s;
 }
 
+header {
+    z-index: 999;
+}
 
 header .toni {
     position: absolute;
@@ -91,4 +94,58 @@ nav ul li a {
 
 nav ul li a:hover {
     color: blueviolet;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(48, 33, 15);
+    z-index: -1;
+    color: white 
+}
+
+section {
+    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+section h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+section h3 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+section p {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+footer h1{
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    z-index: 2;
+}
+
+#foto-principal{
+    margin: 0 auto;
+    display: block;
 }
