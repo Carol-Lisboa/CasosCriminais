@@ -8,7 +8,7 @@
 html, body {
     min-height: 180vh;
     overflow-x: hidden;
-    background-color: #e1dede;
+    background-color:#212121;
 }
 
 .toni {
@@ -122,7 +122,7 @@ section h2 {
     font-size: 3em;
     font-weight: bold;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 section h3 {
@@ -134,7 +134,12 @@ section h3 {
 section p {
     text-align: center;
     font-size: 20px;
-    color: black;
+    color: white;
+}
+.banner{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
 }
 
 footer h1{
@@ -148,7 +153,7 @@ footer {
 }
 
 #foto-principal{
-    border: solid black 10px;
+    border: solid white 10px;
     width: 70vw;
     border-radius: 20px;
     margin-top: 70px;
@@ -159,3 +164,50 @@ footer {
     max-height:750px;
 }
 
+.capas{
+    display: inline-block;
+    margin-left: 37%;
+    margin-right: 50%;
+    border-radius: 13px;
+    border: solid rgb(50, 0, 0) 5px;
+}
+.estrelinha{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.capas-diferente{
+    margin-left: 35%;
+    margin-right: 50%;
+    display: inline-block;
+    border-radius: 13px;
+    border: solid rgb(50, 0, 0) 5px;
+}
+.capas-estranha{
+    width: 24%;
+    margin-left: 37%;
+    margin-right: 50%;
+    display: inline-block;
+    border-radius: 13px;
+    border: solid rgb(50, 0, 0) 5px;
+
+}
+.capas-infernais{
+    width: 24%;
+    margin-left: 37%;
+    margin-right: 50%;
+    display: inline-block;
+    border-radius: 13px;
+    border: solid rgb(50, 0, 0) 5px;
+
+}
+.capas-loucura-psicopatia{
+    width: 24%;
+    margin-left: 37%;
+    margin-right: 50%;
+    display: inline-block;
+    border-radius: 13px;
+    border: solid rgb(50, 0, 0) 5px;
+
+}
