@@ -8,7 +8,7 @@
   
 }
 :root {
-  --bg-color: var(var(--bg-color)#201703);
+  --bg-color: var(var(--bg-color)#0b0b0b);
   --text-color: #fff;
   --main-color: rgb(175, 8, 8);
   --other-color: #fcfcfc;
@@ -17,7 +17,7 @@
 }
 
 body{
-  background-color: #201703;
+  background-color: #0b0b0b;
   color: var(--text-color);
 }
 
