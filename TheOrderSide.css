@@ -8,6 +8,7 @@
 html, body {
     min-height: 180vh;
     overflow-x: hidden;
+    background-color: #e1dede;
 }
 
 .toni {
@@ -77,18 +78,19 @@ nav ul {
     opacity: 0;
 }
 
-header.toni nav ul {
+header.ramos nav ul {
     transform: translateX(0);
     opacity: 1;
     transition-delay: .75s;
 }
 
 nav ul li a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style: none;
     color: white;
     display: inline-block;
     padding: 10px 15px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-decoration: none;
 }
 
@@ -97,7 +99,7 @@ nav ul li a:hover {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100vw;
     height: 100px;
@@ -146,8 +148,14 @@ footer {
 }
 
 #foto-principal{
-    margin: 0 auto;
+    border: solid black 10px;
+    width: 70vw;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     max-width:750px;
     max-height:750px;
 }
+
