@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root {
+    --bg-color: var(var(--bg-color)#0b0b0b);
+    --text-color: #fff;
+    --main-color: rgb(175, 8, 8);
+    --other-color: #fcfcfc;
+    --h1-font: 3.5rem;
+    --p-font: 1rem;
+    --align-items: center;
+  }
+
+  body{
+    background-color: #0b0b0b;
+    color: var(--text-color);
+  }
+
+body {
+    background-size: cover;
+    margin: 0;
+    background-color: rgb(211, 211, 211);
+    background-image: url(crime.png);
+}
+
+a {
+    text-decoration: none;
+}
+
+header a{
+    color: white;
+    transition: color 600ms linear; 
+}
+
+header a:hover {
+    color: rgb(95, 31, 63);
+}
+.logo{
+    color: var(--text-color);
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .logo i{
+    color: var(--main-color);
+    font-size: 20px;
+    margin-right: 5px;
+  }
+
+
+#lista a {
+    text-decoration: none;
+    color: white;
+    transition: color 500ms linear;
+}
+
+#lista a:hover {
+    color: rgb(95, 31, 63);
+}   
+
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    display: block;
+}
+
+header {
+    background-color: rgba(0, 0, 0, .95);
+    box-shadow: 5px 10px 10px rgba(0,0,0, .25);
+    padding-top: -1em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightgrey;
+    border-bottom: 2px rgb(175, 8, 8);
+    height: 4em;
+    margin-bottom: 2em;
+}
+#titulo {
+    text-align:justify;
+
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 2em;
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+article {
+    box-sizing: border-box;
+    display: block;
+    width: 22%;
+    background-color: rgb(223, 227, 230);
+    padding: 1.2em;
+    border-radius: 4%;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+    height: 21em;
+}
+
+#primeiro {
+    display: block;
+    background-color: black;
+    background-position: -0.2em;
+    align-items: center;
+}
+
+#segundo {
+    background-color: black;
+    background-position: -0.2em;
+    align-items: center;
+}
+
+#terceiro {
+    background-color: black;
+    background-position: -0.2em;
+    align-items: center;
+}
+
+
+article p {
+    font-size: 1.0em;
+    text-align: center;
+    color: white
+}
+
+
+
+#introducao {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#introducao p {
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+    background-color: black;
+    border-bottom: 0.25em black solid;
+    border-top: 0.25em black solid;
+
+}
+
+footer p{
+    color: white;
+    font-size: 0.8em;
+}
