@@ -95,7 +95,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: blueviolet;
+    color: rgb(118, 14, 14);
 }
 
 footer {
@@ -140,6 +140,7 @@ section p {
     display: inline-block;
     color: white;
     font-size: 20px;
+    padding: 5%;
 }
 
 footer h1{
@@ -211,3 +212,26 @@ footer {
     border: solid rgb(50, 0, 0) 5px;
 
 }
+
+.nome-filme{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    color: white;
+    align-items: center;
+
+}
+
+.bloco-filme :hover {
+    background: #b8b9b9;
+    animation: fadeBackground 6s;
+    animation-fill-mode: forwards;
+    border-radius: 20%;
+
+}
+
+
+@keyframes fadeBackground {
+    from { background-color: #212121; }
+    to { background-color: #b8b9b9; }
+  }
+  
